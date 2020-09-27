@@ -23,5 +23,6 @@ int main()
 	circle(disp, pt, 20, CV_RGB(255, 0, 0), 1, 8, 0);
 	line(disp, pt1, pt2, CV_RGB(255, 0, 0), 1, 8, 0);
 	imshow("src", disp);
+
 	waitKey(0);
 }
